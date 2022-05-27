@@ -9,7 +9,6 @@ class Program
 {
     public static void Main(string[] args)
     {
-       {
         var day = Console.ReadLine();
         int age;
         // input
@@ -28,5 +27,4 @@ class Program
             Console.WriteLine("You are not eligible to enter the museum");
         Console.WriteLine("\nDone.");
     }
-  }
 }
