@@ -19,8 +19,7 @@ class Program
         Console.WriteLine("");
         Console.Write("Enter age : ");
         age = Convert.ToInt32(Console.ReadLine());
-         
-        //Process
+        // process
         if ((day == "Saturday" || day == "Sunday") || (age > 5 && age < 80))
             Console.WriteLine("You're eligible to enter the museum");
         else
